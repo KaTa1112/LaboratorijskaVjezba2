@@ -60,6 +60,9 @@
     <Compile Include="ResultDisplay.Designer.cs">
       <DependentUpon>ResultDisplay.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -85,6 +88,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LaboratorijskaVjezba2\LaboratorijskaVjezba2.csproj">
+      <Project>{5e8706a4-a459-4c99-af69-2934133fbe22}</Project>
+      <Name>LaboratorijskaVjezba2</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

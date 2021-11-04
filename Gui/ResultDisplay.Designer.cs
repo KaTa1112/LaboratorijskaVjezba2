@@ -1,7 +1,7 @@
 ﻿
 namespace Vsite.CSharp.KvadratnaJednadzba.Gui
 {
-    partial class ResultDisplay
+    partial class resultDisplay
     {
         /// <summary> 
         /// Required designer variable.
@@ -192,7 +192,7 @@ namespace Vsite.CSharp.KvadratnaJednadzba.Gui
             this.textBoxRoot2.Size = new System.Drawing.Size(120, 20);
             this.textBoxRoot2.TabIndex = 5;
             // 
-            // ResultDisplay
+            // resultDisplay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -201,7 +201,7 @@ namespace Vsite.CSharp.KvadratnaJednadzba.Gui
             this.Controls.Add(this.textBoxDiscriminant);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.groupBox1);
-            this.Name = "ResultDisplay";
+            this.Name = "resultDisplay";
             this.Size = new System.Drawing.Size(324, 343);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

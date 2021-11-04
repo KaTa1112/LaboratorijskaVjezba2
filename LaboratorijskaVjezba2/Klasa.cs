@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LaboratorijskaVjezba2
 {
-    class KomplekniBrojKlasa
+    public class KomplekniBrojKlasa
     {
         public KomplekniBrojKlasa(double realni, double imaginarni)
         {
