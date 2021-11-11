@@ -12,6 +12,7 @@ namespace Vsite.CSharp.KvadratnaJednadzba.Gui
 {
     public partial class resultDisplay : UserControl
     {
+        public event EventHandler change;
         public resultDisplay()
         {
             InitializeComponent();
